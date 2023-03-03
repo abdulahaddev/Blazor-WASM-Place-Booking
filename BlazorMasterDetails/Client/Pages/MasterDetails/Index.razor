@@ -1,0 +1,87 @@
+﻿@page "/index"
+@attribute [Authorize]
+
+@using BlazorMasterDetails.Shared;
+@using Microsoft.AspNetCore.Authorization;
+@inject HttpClient http
+@inject NavigationManager navigationManager
+
+
+<h3>Index</h3>
+<div class="d-flex justify-content-end mb-2">
+    <a class="btn btn-primary btm-sm" href="/create">Add New</a>
+</div>
+@if (customers is null)
+{
+    <div class="d-flex justify-content-center mt-5">
+        <img src="/Images/loading.gif" />
+    </div>
+}
+@if (customers is not null)
+{
+    @foreach (var customer in customers)
+    {
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <div>
+                    <img src="/Images/@customer.Picture" width="32" class="mr-2" />
+                    Name: @customer.CustomerName
+                </div>
+                <div>
+                    <a class="btn btn-success" href="customer/edit/@customer.CustomerId">Edit</a>
+                    <a class="btn btn-warning" @onclick="@(()=> Delete(customer.CustomerId))">Delete</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>SpotId</th>
+                            <th>SpotName</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var singleEntry in customer.BookingEntries)
+                        {
+                            <tr>
+                                <td>@singleEntry.SpotId</td>
+                                <td>@singleEntry.Spot.SpotName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}
+
+
+
+@code {
+    List<Customer> customers { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+    async Task LoadData()
+    {
+        customers = await http.GetFromJsonAsync<List<Customer>>("api/MasterDetails/GetCustomers");
+    }
+
+    async Task Delete(int customerId)
+    {
+        var response = await http.DeleteAsync($"api/MasterDetails/{customerId}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            // remove the deleted customer from the list
+            customers.RemoveAll(c => c.CustomerId == customerId);
+            StateHasChanged();
+        }
+        else
+        {
+            Console.WriteLine(await response.Content.ReadAsStringAsync());
+        }
+    }
+}
