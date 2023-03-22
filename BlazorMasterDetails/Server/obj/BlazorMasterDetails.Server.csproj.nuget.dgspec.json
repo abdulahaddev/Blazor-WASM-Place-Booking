@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj": {}
+    "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj": {
+    "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj",
         "projectName": "BlazorMasterDetails.Client",
-        "projectPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj",
+        "projectPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj": {
-                "projectPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj"
+              "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj": {
+                "projectPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj": {
+    "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj",
         "projectName": "BlazorMasterDetails.Server",
-        "projectPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj",
+        "projectPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Server\\BlazorMasterDetails.Server.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Server\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,11 +127,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj": {
-                "projectPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj"
+              "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj": {
+                "projectPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Client\\BlazorMasterDetails.Client.csproj"
               },
-              "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj": {
-                "projectPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj"
+              "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj": {
+                "projectPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj"
               }
             }
           }
@@ -220,14 +220,14 @@
         }
       }
     },
-    "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj": {
+    "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj",
         "projectName": "BlazorMasterDetails.Shared",
-        "projectPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj",
+        "projectPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\BlazorMasterDetails.Shared.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Desktop\\BlazorMasterDetails\\BlazorMasterDetails\\BlazorMasterDetails\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Desktop\\111111111111111111\\Blazor-WAS-MasterDetails\\BlazorMasterDetails\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
